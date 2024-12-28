@@ -96,7 +96,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: Text(
-                widget.product['description'] ?? 'No description available.',
+                widget.product['description'] ?? 'Tas Eiger adalah salah satu tas yang memiliki kualitas sangat bagus.',
                 style: const TextStyle(fontSize: 16),
               ),
             ),
@@ -134,7 +134,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                   reviewProvider.isLoading
                       ? const Center(child: CircularProgressIndicator())
                       : reviewProvider.reviews.isEmpty
-                          ? const Text("No reviews yet.")
+                          ? const Text("Nice Items.")
                           : Column(
                               children: reviewProvider.reviews.map((review) {
                                 return Padding(
@@ -162,7 +162,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                                 );
                               }).toList(),
                             ),
-                ],
+],
               ),
             ),
           ],

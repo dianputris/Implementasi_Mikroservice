@@ -55,7 +55,7 @@ class HomePage extends StatelessWidget {
                           leading: CircleAvatar(
                             backgroundColor: Colors.white,
                             child: Icon(
-                              Icons.shopping_cart,
+                              Icons.backpack_sharp,
                               color: Colors.grey[800],
                             ),
                           ),

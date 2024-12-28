@@ -21,7 +21,7 @@ class ReviewProvider with ChangeNotifier {
 
     try {
       final response = await http.get(
-        Uri.parse('http://10.20.30.8:3004/products/$productId/reviews'),
+        Uri.parse('http://192.168.149.84:3004/products/$productId/reviews'),
       );
 
       print('Response status: ${response.statusCode}');
